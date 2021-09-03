@@ -34,11 +34,21 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML introduces meaning to a website. For example, a h1 indicates that the text is a heading. On the other hand, non-semantic elements aren't visible and is only used for styling purposes.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block takes up the full width available and then goes into a new line kinda like break tag.
+
+display: inline takes up only as much width as it needs; it does not force new lines.
 
 3. What are the 4 areas of the box model?
 
+The 4 areas of the box model are: Content, padding, border and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+
 
 5. Explain why git is valuable to a team of developers.
 
