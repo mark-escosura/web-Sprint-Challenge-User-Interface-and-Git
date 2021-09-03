@@ -69,36 +69,33 @@ p {
 }
 
 /* Header Styles Goes Here */
+
 .nav-container {
     height:10vh;
     display:flex;
     justify-content: center;
     align-items: baseline;
-    padding: 1%;
+    padding:1% 0 4%;
 }
 
-.top-left-nav {
-    padding-left: 0;
-    display:flex;
-    
+.top-left-nav img {
+    margin-right: 3rem;
 }
 
 .top-right-nav {
-    display: flex;
-
     font-family: 'Rubik', sans-serif;
 }
 
 .top-right-nav a {
-    padding: 0 10%;
+    padding: 0 2rem;
     text-decoration: none;
     color: #000;
 }
 
-header .background-container{
+header .background-image-container{
     display:flex;
     justify-content:center;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 /* First Section Styles Goes Here */
