@@ -70,24 +70,29 @@ p {
 
 /* Header Styles Goes Here */
 .nav-container {
+    height:10vh;
     display:flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    align-items: baseline;
     padding: 1%;
-    border: 1px solid red;
 }
 
 .top-left-nav {
+    padding-left: 0;
     display:flex;
+    
 }
 
 .top-right-nav {
     display: flex;
+
+    font-family: 'Rubik', sans-serif;
 }
 
 .top-right-nav a {
-    padding: 0 6%;
+    padding: 0 10%;
     text-decoration: none;
+    color: #000;
 }
 
 header .background-container{
@@ -95,6 +100,7 @@ header .background-container{
     justify-content:center;
     margin-bottom: 2%;
 }
+
 /* First Section Styles Goes Here */
 
 .container {
@@ -141,6 +147,46 @@ header .background-container{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box-1 {
+    background-color:teal;
+}
+
+.middle-content .boxes .box-2 {
+    background-color:gold;
+}
+
+.middle-content .boxes .box-3 {
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background-color:coral;
+}
+
+.middle-content .boxes .box-5 {
+    background-color:crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background-color:hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background-color:indigo;
+}
+
+.middle-content .boxes .box-10 {
+    background-color:dodgerblue;
 }
 
 .bottom-content {
