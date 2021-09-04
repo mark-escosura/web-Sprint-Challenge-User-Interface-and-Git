@@ -23,32 +23,41 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
+/* General Styles Goes Here */
+
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -65,6 +74,53 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+button {
+    font-size:.9rem;
+    font-family: 'Rubik', sans-serif;
+    width: 35%;
+    border:2px solid black;
+    border-radius: 10px;
+    padding: .6rem 1rem;
+    background-color: white;
+}
+
+/* Header Styles Goes Here */
+
+.nav-container {
+    height:10vh;
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    padding:1% 0 4%;
+}
+
+.top-left-nav img {
+    margin-right: 3rem;
+}
+
+.top-right-nav {
+    font-family: 'Rubik', sans-serif;
+}
+
+.top-right-nav a {
+    padding: 0 2rem;
+    text-decoration: none;
+    color: #000;
+}
+
+header .background-image-container{
+    display:flex;
+    justify-content:center;
+    margin-bottom: 1%;
+}
+
+/* First Section Styles Goes Here */
 
 .container {
     width: 800px;
@@ -83,6 +139,38 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+/*First Section Styles Goes Here */
+
+.about-page .about-descript {
+    border-bottom: 1px dashed black;
+    padding: 1rem 1rem;
+}
+
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.top-content-about .text-container-about {
+    width: 46%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin: 1rem;
+    padding-bottom: 1.1rem;
+    border-bottom:1px dashed #000F;
+}
+
+.top-content-about div h1 {
+    margin-top: .5rem;
+}
+
+.top-content-about div p {
+    margin-bottom:1rem;
 }
 
 .middle-content {
@@ -112,6 +200,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box-1 {
+    background-color:teal;
+}
+
+.middle-content .boxes .box-2 {
+    background-color:gold;
+}
+
+.middle-content .boxes .box-3 {
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background-color:coral;
+}
+
+.middle-content .boxes .box-5 {
+    background-color:crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background-color:hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background-color:indigo;
+}
+
+.middle-content .boxes .box-10 {
+    background-color:dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +253,14 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Third Section Styles Goes Here */
+
+.third-sect {
+    margin: 1.5rem;
+}
+
+/* Footer Section Styles Goes Here */
 
 footer {
     width: 100%;
