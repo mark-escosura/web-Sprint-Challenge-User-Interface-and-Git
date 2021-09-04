@@ -75,6 +75,11 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+    color:black;
+}
+
 button {
     font-size:.9rem;
     font-family: 'Rubik', sans-serif;
@@ -251,8 +256,8 @@ header .background-image-container{
 
 /* Third Section Styles Goes Here */
 
-section .about-descript .third-sect {
-    margin:1rem
+.third-sect {
+    margin: 1.5rem;
 }
 
 /* Footer Section Styles Goes Here */

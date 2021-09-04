@@ -38,7 +38,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-display: block takes up the full width available and then goes into a new line kinda like break tag.
+    display: block takes up the full width available and then goes into a new line kinda like break tag.
 
     display: inline takes up only as much width as it needs; it does not force new lines.
 
