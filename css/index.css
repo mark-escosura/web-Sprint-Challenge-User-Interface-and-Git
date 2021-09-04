@@ -23,29 +23,36 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /* General Styles Goes Here */
 
 * {
@@ -128,6 +135,7 @@ header .background-image-container{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 /*First Section Styles Goes Here */
 
 .about-page .about-descript {
@@ -140,7 +148,9 @@ header .background-image-container{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
+
 .top-content-about .text-container-about {
     width: 46%;
     padding: 0 1%;
@@ -157,31 +167,6 @@ header .background-image-container{
 .top-content-about div p {
     margin-bottom:1rem;
 }
-
-/* Second Section Styles Goes Here */
-
-.top-content-about-2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-.top-content-about-2 .text-container-about-2 {
-    width: 46%;
-    padding: 0 1%;
-    padding-bottom: 20px;
-    margin: 1rem;
-    padding-bottom: 1.1rem;
-    border-bottom:1px dashed #000F;
-}
-.top-content-about-2 div h1 {
-    margin-top: .5rem;
-}
-
-.top-content-about-2 div p {
-    margin-bottom:1rem;
-}
-/* Middle Content Styles Goes Here */
 
 .middle-content {
     margin-bottom: 20px;
@@ -263,6 +248,14 @@ header .background-image-container{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Third Section Styles Goes Here */
+
+section .about-descript .third-sect {
+    margin:1rem
+}
+
+/* Footer Section Styles Goes Here */
 
 footer {
     width: 100%;
